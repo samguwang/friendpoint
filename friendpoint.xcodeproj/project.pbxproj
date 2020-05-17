@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C69F292470CF1C001C1256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F282470CF1C001C1256 /* AppDelegate.swift */; };
+		B2C69F2B2470CF1C001C1256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */; };
+		B2C69F2E2470CF1C001C1256 /* friendpoint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F2C2470CF1C001C1256 /* friendpoint.xcdatamodeld */; };
+		B2C69F302470CF1C001C1256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F2F2470CF1C001C1256 /* ContentView.swift */; };
+		B2C69F322470CF25001C1256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C69F312470CF25001C1256 /* Assets.xcassets */; };
+		B2C69F352470CF25001C1256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C69F342470CF25001C1256 /* Preview Assets.xcassets */; };
+		B2C69F382470CF25001C1256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C69F362470CF25001C1256 /* LaunchScreen.storyboard */; };
+		B2C69F432470CF25001C1256 /* friendpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F422470CF25001C1256 /* friendpointTests.swift */; };
+		B2C69F4E2470CF25001C1256 /* friendpointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F4D2470CF25001C1256 /* friendpointUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C69F3F2470CF25001C1256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C69F1D2470CF1C001C1256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C69F242470CF1C001C1256;
+			remoteInfo = friendpoint;
+		};
+		B2C69F4A2470CF25001C1256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C69F1D2470CF1C001C1256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C69F242470CF1C001C1256;
+			remoteInfo = friendpoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2C69F252470CF1C001C1256 /* friendpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friendpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C69F282470CF1C001C1256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2C69F2D2470CF1C001C1256 /* friendpoint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = friendpoint.xcdatamodel; sourceTree = "<group>"; };
+		B2C69F2F2470CF1C001C1256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2C69F312470CF25001C1256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C69F342470CF25001C1256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2C69F372470CF25001C1256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C69F392470CF25001C1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C69F3E2470CF25001C1256 /* friendpointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendpointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C69F422470CF25001C1256 /* friendpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendpointTests.swift; sourceTree = "<group>"; };
+		B2C69F442470CF25001C1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C69F492470CF25001C1256 /* friendpointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendpointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C69F4D2470CF25001C1256 /* friendpointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendpointUITests.swift; sourceTree = "<group>"; };
+		B2C69F4F2470CF25001C1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C69F222470CF1C001C1256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F3B2470CF25001C1256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F462470CF25001C1256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C69F1C2470CF1C001C1256 = {
+			isa = PBXGroup;
+			children = (
+				B2C69F272470CF1C001C1256 /* friendpoint */,
+				B2C69F412470CF25001C1256 /* friendpointTests */,
+				B2C69F4C2470CF25001C1256 /* friendpointUITests */,
+				B2C69F262470CF1C001C1256 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C69F262470CF1C001C1256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F252470CF1C001C1256 /* friendpoint.app */,
+				B2C69F3E2470CF25001C1256 /* friendpointTests.xctest */,
+				B2C69F492470CF25001C1256 /* friendpointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C69F272470CF1C001C1256 /* friendpoint */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F282470CF1C001C1256 /* AppDelegate.swift */,
+				B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */,
+				B2C69F2F2470CF1C001C1256 /* ContentView.swift */,
+				B2C69F312470CF25001C1256 /* Assets.xcassets */,
+				B2C69F362470CF25001C1256 /* LaunchScreen.storyboard */,
+				B2C69F392470CF25001C1256 /* Info.plist */,
+				B2C69F2C2470CF1C001C1256 /* friendpoint.xcdatamodeld */,
+				B2C69F332470CF25001C1256 /* Preview Content */,
+			);
+			path = friendpoint;
+			sourceTree = "<group>";
+		};
+		B2C69F332470CF25001C1256 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F342470CF25001C1256 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2C69F412470CF25001C1256 /* friendpointTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F422470CF25001C1256 /* friendpointTests.swift */,
+				B2C69F442470CF25001C1256 /* Info.plist */,
+			);
+			path = friendpointTests;
+			sourceTree = "<group>";
+		};
+		B2C69F4C2470CF25001C1256 /* friendpointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F4D2470CF25001C1256 /* friendpointUITests.swift */,
+				B2C69F4F2470CF25001C1256 /* Info.plist */,
+			);
+			path = friendpointUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C69F242470CF1C001C1256 /* friendpoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C69F522470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpoint" */;
+			buildPhases = (
+				B2C69F212470CF1C001C1256 /* Sources */,
+				B2C69F222470CF1C001C1256 /* Frameworks */,
+				B2C69F232470CF1C001C1256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = friendpoint;
+			productName = friendpoint;
+			productReference = B2C69F252470CF1C001C1256 /* friendpoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C69F3D2470CF25001C1256 /* friendpointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C69F552470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointTests" */;
+			buildPhases = (
+				B2C69F3A2470CF25001C1256 /* Sources */,
+				B2C69F3B2470CF25001C1256 /* Frameworks */,
+				B2C69F3C2470CF25001C1256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C69F402470CF25001C1256 /* PBXTargetDependency */,
+			);
+			name = friendpointTests;
+			productName = friendpointTests;
+			productReference = B2C69F3E2470CF25001C1256 /* friendpointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2C69F482470CF25001C1256 /* friendpointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C69F582470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointUITests" */;
+			buildPhases = (
+				B2C69F452470CF25001C1256 /* Sources */,
+				B2C69F462470CF25001C1256 /* Frameworks */,
+				B2C69F472470CF25001C1256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C69F4B2470CF25001C1256 /* PBXTargetDependency */,
+			);
+			name = friendpointUITests;
+			productName = friendpointUITests;
+			productReference = B2C69F492470CF25001C1256 /* friendpointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C69F1D2470CF1C001C1256 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Sam Wang";
+				TargetAttributes = {
+					B2C69F242470CF1C001C1256 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B2C69F3D2470CF25001C1256 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B2C69F242470CF1C001C1256;
+					};
+					B2C69F482470CF25001C1256 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = B2C69F242470CF1C001C1256;
+					};
+				};
+			};
+			buildConfigurationList = B2C69F202470CF1C001C1256 /* Build configuration list for PBXProject "friendpoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C69F1C2470CF1C001C1256;
+			productRefGroup = B2C69F262470CF1C001C1256 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C69F242470CF1C001C1256 /* friendpoint */,
+				B2C69F3D2470CF25001C1256 /* friendpointTests */,
+				B2C69F482470CF25001C1256 /* friendpointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C69F232470CF1C001C1256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C69F382470CF25001C1256 /* LaunchScreen.storyboard in Resources */,
+				B2C69F352470CF25001C1256 /* Preview Assets.xcassets in Resources */,
+				B2C69F322470CF25001C1256 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F3C2470CF25001C1256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F472470CF25001C1256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C69F212470CF1C001C1256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C69F2E2470CF1C001C1256 /* friendpoint.xcdatamodeld in Sources */,
+				B2C69F292470CF1C001C1256 /* AppDelegate.swift in Sources */,
+				B2C69F302470CF1C001C1256 /* ContentView.swift in Sources */,
+				B2C69F2B2470CF1C001C1256 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F3A2470CF25001C1256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C69F432470CF25001C1256 /* friendpointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C69F452470CF25001C1256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C69F4E2470CF25001C1256 /* friendpointUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C69F402470CF25001C1256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C69F242470CF1C001C1256 /* friendpoint */;
+			targetProxy = B2C69F3F2470CF25001C1256 /* PBXContainerItemProxy */;
+		};
+		B2C69F4B2470CF25001C1256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C69F242470CF1C001C1256 /* friendpoint */;
+			targetProxy = B2C69F4A2470CF25001C1256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2C69F362470CF25001C1256 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C69F372470CF25001C1256 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C69F502470CF25001C1256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C69F512470CF25001C1256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C69F532470CF25001C1256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"friendpoint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = friendpoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C69F542470CF25001C1256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"friendpoint/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = friendpoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2C69F562470CF25001C1256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = friendpointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/friendpoint.app/friendpoint";
+			};
+			name = Debug;
+		};
+		B2C69F572470CF25001C1256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = friendpointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/friendpoint.app/friendpoint";
+			};
+			name = Release;
+		};
+		B2C69F592470CF25001C1256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = friendpointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = friendpoint;
+			};
+			name = Debug;
+		};
+		B2C69F5A2470CF25001C1256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = friendpointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.friendpointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = friendpoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C69F202470CF1C001C1256 /* Build configuration list for PBXProject "friendpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C69F502470CF25001C1256 /* Debug */,
+				B2C69F512470CF25001C1256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C69F522470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C69F532470CF25001C1256 /* Debug */,
+				B2C69F542470CF25001C1256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C69F552470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C69F562470CF25001C1256 /* Debug */,
+				B2C69F572470CF25001C1256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C69F582470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C69F592470CF25001C1256 /* Debug */,
+				B2C69F5A2470CF25001C1256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2C69F2C2470CF1C001C1256 /* friendpoint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2C69F2D2470CF1C001C1256 /* friendpoint.xcdatamodel */,
+			);
+			currentVersion = B2C69F2D2470CF1C001C1256 /* friendpoint.xcdatamodel */;
+			path = friendpoint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2C69F1D2470CF1C001C1256 /* Project object */;
+}
