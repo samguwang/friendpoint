@@ -8,14 +8,22 @@
 
 import UIKit
 import CoreData
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let path = Bundle.main.path(forResource: "keys", ofType: "plist") {
+            if let dict = NSDictionary(contentsOfFile: path) {
+                let clientKey = dict["kgoogleApiKey"] as? String
+                // Initialize Google Maps API
+                GMSServices.provideAPIKey(clientKey!)
+                GMSPlacesClient.provideAPIKey(clientKey!)
+            }
+        }
         return true
     }
 

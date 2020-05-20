@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1813EB9814060C7779BA3743 /* Pods_friendpointTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F074644512128AD1B1A0D2AA /* Pods_friendpointTests.framework */; };
+		75B73681837BDCFF0049AB9C /* Pods_friendpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D85D3A6D6C8630AE2B3104 /* Pods_friendpoint.framework */; };
+		AB819A662B7F423F0CBE942D /* Pods_friendpoint_friendpointUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E1D9454C0B6E4C78606923 /* Pods_friendpoint_friendpointUITests.framework */; };
 		B2C69F292470CF1C001C1256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F282470CF1C001C1256 /* AppDelegate.swift */; };
 		B2C69F2B2470CF1C001C1256 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */; };
 		B2C69F2E2470CF1C001C1256 /* friendpoint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F2C2470CF1C001C1256 /* friendpoint.xcdatamodeld */; };
@@ -16,6 +19,9 @@
 		B2C69F382470CF25001C1256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C69F362470CF25001C1256 /* LaunchScreen.storyboard */; };
 		B2C69F432470CF25001C1256 /* friendpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F422470CF25001C1256 /* friendpointTests.swift */; };
 		B2C69F4E2470CF25001C1256 /* friendpointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C69F4D2470CF25001C1256 /* friendpointUITests.swift */; };
+		C964FCAA2474BB9B00B4137A /* keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C964FCA92474BB9B00B4137A /* keys.plist */; };
+		C9701DE72470D8AD0054307C /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9701DE62470D8AD0054307C /* GoogleMapsView.swift */; };
+		C9701DE92470DA1C0054307C /* LocationRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9701DE82470DA1C0054307C /* LocationRetriever.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12E1D9454C0B6E4C78606923 /* Pods_friendpoint_friendpointUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_friendpoint_friendpointUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D85D3A6D6C8630AE2B3104 /* Pods_friendpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_friendpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E121F335752B08A0BF88A1 /* Pods-friendpointTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpointTests.debug.xcconfig"; path = "Target Support Files/Pods-friendpointTests/Pods-friendpointTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6353EF9DAF60CE44303D4709 /* Pods-friendpoint-friendpointUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpoint-friendpointUITests.debug.xcconfig"; path = "Target Support Files/Pods-friendpoint-friendpointUITests/Pods-friendpoint-friendpointUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4EF41F341CAEC838E3C6FF /* Pods-friendpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpoint.debug.xcconfig"; path = "Target Support Files/Pods-friendpoint/Pods-friendpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		B2C69F252470CF1C001C1256 /* friendpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friendpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C69F282470CF1C001C1256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 		B2C69F492470CF25001C1256 /* friendpointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendpointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C69F4D2470CF25001C1256 /* friendpointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendpointUITests.swift; sourceTree = "<group>"; };
 		B2C69F4F2470CF25001C1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39EB10FCB271FA4BF63D4B7 /* Pods-friendpoint-friendpointUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpoint-friendpointUITests.release.xcconfig"; path = "Target Support Files/Pods-friendpoint-friendpointUITests/Pods-friendpoint-friendpointUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B42B4DCE0A879BE226206C44 /* Pods-friendpointTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpointTests.release.xcconfig"; path = "Target Support Files/Pods-friendpointTests/Pods-friendpointTests.release.xcconfig"; sourceTree = "<group>"; };
+		C964FCA92474BB9B00B4137A /* keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = keys.plist; sourceTree = "<group>"; };
+		C9701DE62470D8AD0054307C /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		C9701DE82470DA1C0054307C /* LocationRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRetriever.swift; sourceTree = "<group>"; };
+		C9F98C93D264833B66500474 /* Pods-friendpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-friendpoint.release.xcconfig"; path = "Target Support Files/Pods-friendpoint/Pods-friendpoint.release.xcconfig"; sourceTree = "<group>"; };
+		F074644512128AD1B1A0D2AA /* Pods_friendpointTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_friendpointTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B73681837BDCFF0049AB9C /* Pods_friendpoint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1813EB9814060C7779BA3743 /* Pods_friendpointTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB819A662B7F423F0CBE942D /* Pods_friendpoint_friendpointUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E9C15B70DCACB0F8A6CB90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D85D3A6D6C8630AE2B3104 /* Pods_friendpoint.framework */,
+				12E1D9454C0B6E4C78606923 /* Pods_friendpoint_friendpointUITests.framework */,
+				F074644512128AD1B1A0D2AA /* Pods_friendpointTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4857E01C96B5CA5AECEF5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4EF41F341CAEC838E3C6FF /* Pods-friendpoint.debug.xcconfig */,
+				C9F98C93D264833B66500474 /* Pods-friendpoint.release.xcconfig */,
+				6353EF9DAF60CE44303D4709 /* Pods-friendpoint-friendpointUITests.debug.xcconfig */,
+				B39EB10FCB271FA4BF63D4B7 /* Pods-friendpoint-friendpointUITests.release.xcconfig */,
+				40E121F335752B08A0BF88A1 /* Pods-friendpointTests.debug.xcconfig */,
+				B42B4DCE0A879BE226206C44 /* Pods-friendpointTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B2C69F1C2470CF1C001C1256 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				B2C69F412470CF25001C1256 /* friendpointTests */,
 				B2C69F4C2470CF25001C1256 /* friendpointUITests */,
 				B2C69F262470CF1C001C1256 /* Products */,
+				1C4857E01C96B5CA5AECEF5E /* Pods */,
+				07E9C15B70DCACB0F8A6CB90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +147,14 @@
 		B2C69F272470CF1C001C1256 /* friendpoint */ = {
 			isa = PBXGroup;
 			children = (
-				B2C69F282470CF1C001C1256 /* AppDelegate.swift */,
-				B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */,
+				C964FCA52474B68200B4137A /* views */,
+				C964FCA42474B63A00B4137A /* launch */,
 				B2C69F2F2470CF1C001C1256 /* ContentView.swift */,
+				C9701DE82470DA1C0054307C /* LocationRetriever.swift */,
 				B2C69F312470CF25001C1256 /* Assets.xcassets */,
 				B2C69F362470CF25001C1256 /* LaunchScreen.storyboard */,
 				B2C69F392470CF25001C1256 /* Info.plist */,
+				C964FCA92474BB9B00B4137A /* keys.plist */,
 				B2C69F2C2470CF1C001C1256 /* friendpoint.xcdatamodeld */,
 				B2C69F332470CF25001C1256 /* Preview Content */,
 			);
@@ -139,6 +187,23 @@
 			path = friendpointUITests;
 			sourceTree = "<group>";
 		};
+		C964FCA42474B63A00B4137A /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				B2C69F282470CF1C001C1256 /* AppDelegate.swift */,
+				B2C69F2A2470CF1C001C1256 /* SceneDelegate.swift */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		C964FCA52474B68200B4137A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C9701DE62470D8AD0054307C /* GoogleMapsView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C69F522470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpoint" */;
 			buildPhases = (
+				3213D9ABF0337FAB93F1C3D6 /* [CP] Check Pods Manifest.lock */,
 				B2C69F212470CF1C001C1256 /* Sources */,
 				B2C69F222470CF1C001C1256 /* Frameworks */,
 				B2C69F232470CF1C001C1256 /* Resources */,
+				B4580B19620BD7B087D3C361 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C69F552470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointTests" */;
 			buildPhases = (
+				E800D4E3B830A7B62DD19718 /* [CP] Check Pods Manifest.lock */,
 				B2C69F3A2470CF25001C1256 /* Sources */,
 				B2C69F3B2470CF25001C1256 /* Frameworks */,
 				B2C69F3C2470CF25001C1256 /* Resources */,
@@ -181,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C69F582470CF25001C1256 /* Build configuration list for PBXNativeTarget "friendpointUITests" */;
 			buildPhases = (
+				823BE85C56EAA2D79FF9EAEA /* [CP] Check Pods Manifest.lock */,
 				B2C69F452470CF25001C1256 /* Sources */,
 				B2C69F462470CF25001C1256 /* Frameworks */,
 				B2C69F472470CF25001C1256 /* Resources */,
+				A5CB97C404D380F68FCA2BCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C964FCAA2474BB9B00B4137A /* keys.plist in Resources */,
 				B2C69F382470CF25001C1256 /* LaunchScreen.storyboard in Resources */,
 				B2C69F352470CF25001C1256 /* Preview Assets.xcassets in Resources */,
 				B2C69F322470CF25001C1256 /* Assets.xcassets in Resources */,
@@ -265,12 +336,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3213D9ABF0337FAB93F1C3D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-friendpoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823BE85C56EAA2D79FF9EAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-friendpoint-friendpointUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5CB97C404D380F68FCA2BCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-friendpoint-friendpointUITests/Pods-friendpoint-friendpointUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-friendpoint-friendpointUITests/Pods-friendpoint-friendpointUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-friendpoint-friendpointUITests/Pods-friendpoint-friendpointUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4580B19620BD7B087D3C361 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-friendpoint/Pods-friendpoint-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-friendpoint/Pods-friendpoint-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-friendpoint/Pods-friendpoint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E800D4E3B830A7B62DD19718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-friendpointTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2C69F212470CF1C001C1256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B2C69F2E2470CF1C001C1256 /* friendpoint.xcdatamodeld in Sources */,
+				C9701DE72470D8AD0054307C /* GoogleMapsView.swift in Sources */,
+				C9701DE92470DA1C0054307C /* LocationRetriever.swift in Sources */,
 				B2C69F292470CF1C001C1256 /* AppDelegate.swift in Sources */,
 				B2C69F302470CF1C001C1256 /* ContentView.swift in Sources */,
 				B2C69F2B2470CF1C001C1256 /* SceneDelegate.swift in Sources */,
@@ -436,6 +612,7 @@
 		};
 		B2C69F532470CF25001C1256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4EF41F341CAEC838E3C6FF /* Pods-friendpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +632,7 @@
 		};
 		B2C69F542470CF25001C1256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F98C93D264833B66500474 /* Pods-friendpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +652,7 @@
 		};
 		B2C69F562470CF25001C1256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E121F335752B08A0BF88A1 /* Pods-friendpointTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +674,7 @@
 		};
 		B2C69F572470CF25001C1256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42B4DCE0A879BE226206C44 /* Pods-friendpointTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +696,7 @@
 		};
 		B2C69F592470CF25001C1256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6353EF9DAF60CE44303D4709 /* Pods-friendpoint-friendpointUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +716,7 @@
 		};
 		B2C69F5A2470CF25001C1256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39EB10FCB271FA4BF63D4B7 /* Pods-friendpoint-friendpointUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
